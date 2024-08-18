@@ -23,7 +23,6 @@ const requestListener = function (req, res) {
     res.writeHead(200, { 'Content-Type': 'text/plain' }); // Set the status code to 200 (OK) and content type to plain text
 
     res.end(`Hello, ${greeting}`);
-
 };
 
 // Define the port number
